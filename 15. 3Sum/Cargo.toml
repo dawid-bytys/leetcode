@@ -1,5 +1,5 @@
 [package]
-name = "sign_of_array"
+name = "three_sum"
 version = "0.1.0"
 edition = "2021"
 
