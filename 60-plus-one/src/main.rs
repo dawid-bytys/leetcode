@@ -2,7 +2,7 @@ struct Solution;
 
 impl Solution {
     pub fn plus_one(digits: Vec<i32>) -> Vec<i32> {
-        let mut digits_copy = digits.clone();
+        let mut digits_copy = digits;
 
         for i in (0..digits_copy.len()).rev() {
             if digits_copy[i] != 9 {
